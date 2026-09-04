@@ -1,5 +1,6 @@
 body{
     background-color:rgb(72, 105, 109);
+    font-family: "Brush Script MT", cursive;
 }
 
 h1{
@@ -8,5 +9,4 @@ h1{
 
 p{
     text-align: justify;
-    size: 120px;
 }
