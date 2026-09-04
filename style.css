@@ -1,14 +1,14 @@
 body {
     background-color: rgb(72, 105, 109);
-    font-family: "Pacifico", cursive;
+    font-family: cursive;
 }
 
-h1{
-    text-align:center;
-    font-size:60px;
+h1 {
+    text-align: center;
+    font-size: 60px;
 }
 
-p{
+p {
     text-align: justify;
-    font-size:30px;
+    font-size: 30px;
 }
