@@ -45,6 +45,61 @@
         </section>
 
         <section>
+            <h2>My Hobbies and Skills</h2>
+            <h3>Things I enjoy (unordered list)</h3>
+            <ul>
+                <li>Playing online games with friends</li>
+                <li>Cycling around my neighbourhood</li>
+                <li>Reading novels</li>
+                <li>Learning about new electronic gadgets</li>
+            </ul>
+
+            <h3>Steps to create a website (ordered list)</h3>
+            <ol>
+                <li>Plan what the website will be about</li>
+                <li>Write the page structure in HTML</li>
+                <li>Style the page with CSS</li>
+                <li>Upload the files to GitHub</li>
+                <li>Publish the site with GitHub Pages</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>My Weekly Routine</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Activity</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sunday - Friday</td>
+                        <td>College classes</td>
+                        <td>6:30 AM - 1:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday - Friday</td>
+                        <td>Homework and coding practice</td>
+                        <td>4:00 PM - 6:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Cycling</td>
+                        <td>7:00 AM - 8:30 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Online games with friends</td>
+                        <td>5:00 PM - 8:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
             <h2>My Favourite Novel</h2>
             <p>Here is a cool picture I found! It is from my favourite novel, "Shadow Slave"!</p>
             <img src="shadowslave.png" alt="Cover art from the novel Shadow Slave" width="400" height="500">
@@ -88,6 +143,25 @@
             <iframe
                 src="https://www.openstreetmap.org/export/embed.html?bbox=85.31%2C27.685%2C85.335%2C27.705&amp;layer=mapnik"
                 width="100%" height="350" title="Map of Maitighar, Kathmandu"></iframe>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </p>
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message here"></textarea>
+                </p>
+                <input type="submit" value="Send Message">
+            </form>
         </section>
 
     </main>
