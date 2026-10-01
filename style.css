@@ -1,14 +1,98 @@
 body {
     background-color: rgb(72, 105, 109);
-    font-family: cursive;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    color: #1f2d2f;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    padding: 30px 15px 10px;
 }
 
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 48px;
+    color: #fdf6e3;
+    margin: 0;
+    font-family: cursive;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px 30px 30px;
+    background-color: #fdf6e3;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+section {
+    padding: 15px 0;
+    border-bottom: 2px solid #c9d8d3;
+}
+
+h2 {
+    color: rgb(48, 78, 82);
+    font-family: cursive;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h3, .intro h4, .intro h5, .intro h6 {
+    margin: 6px 0;
+}
+
+p {
+    text-align: justify;
+}
+
+blockquote {
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #e6efe9;
+    border-left: 5px solid rgb(72, 105, 109);
+    font-style: italic;
+}
+
+mark {
+    background-color: #ffe27a;
+    padding: 0 3px;
+}
+
+img, video, embed, iframe, object {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+}
+
+iframe {
+    border: 2px solid rgb(72, 105, 109);
+}
+
+.link {
+    text-align: center;
 }
 
 a {
-    text-align: justify;
-    font-size: 30px;
+    font-size: 24px;
+    color: rgb(48, 78, 82);
+    font-weight: bold;
+}
+
+a:hover {
+    color: #b5443a;
+}
+
+footer {
+    text-align: center;
+    color: #fdf6e3;
+    padding-bottom: 20px;
 }
